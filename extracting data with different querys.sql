@@ -1,0 +1,11 @@
+-- SELECT * FROM users WHERE gender!="Female";
+-- SELECT * FROM users WHERE date_of_birth<"1995-12-05";
+-- SELECT * FROM users WHERE id<10;
+-- SELECT * FROM users WHERE date_of_birth BETWEEN "1990-09-09" AND "2000-09-9";
+-- SELECT * FROM users WHERE gender in("Male","Female");
+-- SELECT * FROM users WHERE gender='Male' AND salary>'60000';
+-- SELECT * FROM users WHERE gender='Male' OR salary>'60000';
+-- SELECT * FROM users WHERE gender='Male' OR salary>'60000' ORDER BY date_of_birth ASC;
+-- SELECT * FROM users WHERE gender='Male' OR salary>'60000' ORDER BY date_of_birth DESC;
+-- SELECT * FROM users WHERE gender='Male' OR salary>'60000' ORDER BY date_of_birth ASC LIMIT 15;
+SELECT * FROM users WHERE salary>60000 ORDER BY created_at DESC LIMIT 5;
